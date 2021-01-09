@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is title</title>
+
+    <style>
+
+        .flex {
+            display: flex;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+            padding: 10px 20px;
+            color: wheat;
+            background-color: #238f92;
+            height: fit-content;
+        }
+        .main-menu > li{
+            border-right: 1px solid;
+        }
+        .main-menu > li:last-child{
+            border-right: none;
+        }
+        .cate-menu1 {
+            max-width: max-content;
+        }
+        .cate-menu1 > li {
+            width: max-content;
+        }
+
+        .menu1 {
+            position: relative;
+        }
+        .menu1 > ul {
+            position: absolute;
+            left: 0;
+            top: 40px;
+        }
+        ul.cate-menu1 > li {
+            border-bottom: 1px solid;
+        }
+
+
+    </style>
+
+</head>
+
+
+<body>
+    <div class="main">
+        <ul class="main-menu flex">
+            <li>menu1</li>
+            <li class="menu1">menu2
+                <ul class="cate-menu1">
+                    <li>category 1</li>
+                    <li>category 2</li>
+                    <li>category 3</li>
+                    <li>category 4</li>
+                </ul>
+            </li>
+            <li>menu3</li>
+            <li>menu4</li>
+        </ul>
+        
+    </div>
+
+</body>
+
+
+
+</html>
