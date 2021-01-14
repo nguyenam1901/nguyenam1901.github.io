@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        
+        .logo {
+            height: 120px;
+            width: 120px;
+            margin-left: 44px;
+        }
+        .logo img {
+            width: 100%;
+        }
+        .flex {
+            display: flex;
+        }
+        .post {
+            width: 160px;
+            height: 45px;
+            padding: 11px 20px 10px;
+            font-family: NanumSquare;
+            font-size: 16px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.19;
+            letter-spacing: -0.56px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        button {
+            width: 100%;
+            height: 100%;
+            border-radius: 3px;
+            background-color: #2b94f9;
+            color: goldenrod;
+            border: none;
+            font-size: 16px;
+            font-weight: 700
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+        ul {
+            background-color: #fafafa;
+        }
+        li {
+            list-style: none;
+            margin-bottom: 20px;
+            padding-top: 14px;
+            padding-left: 0;
+            display: flex;
+            color: #2b94f9;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .icon {
+            margin-right: 28px;
+        }
+        .all {
+            border-left: 2px solid;
+            border-color: #2b94f9;
+            width: 200px;
+            margin-bottom: 35px;
+        }
+        .user {
+            display: flex;
+            width: 200px;
+            background-color: none;
+            border-top: 1px solid;
+        }
+        .userid {
+            color: goldenrod;
+            padding-right: 25px;
+            margin-top: 0;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="main-menu">
+
+        <div class="logo">
+            <img src="C:\Users\namn9\Downloads\lol.jpg">
+        </div>
+
+        <div class="post">
+            <button><a href="https://signup.na.leagueoflegends.com/en/signup/index#/" target="_blank">
+                PLAY NOW
+                </a>
+            </button>
+        </div>
+
+        <div class="all">
+
+            <ul>
+                <li class="name">
+                    <div class="icon"><i class="fas fa-house-user"></i></div>
+                    <div class="label"><a href="https://na.leagueoflegends.com/en-us/">HOME</a></div>
+                </li>
+
+                <li class="name">
+                    <div class="icon"><i class="fas fa-dragon"></i></div>
+                    <div class="label"><a href="https://na.leagueoflegends.com/en-us/champions/">CHAMPION</a></div>
+                </li>
+
+                <li class="name">
+                    <div class="icon"><i class="fas fa-newspaper"></i></div>
+                    <div class="label"><a href="https://na.leagueoflegends.com/en-us/news/" target="_blank">NEWS</a></div>
+                </li>
+
+                <li class="name">
+                    <div class="icon"><i class="fas fa-gamepad"></i></div>
+                    <div class="label"><a href="https://na.leagueoflegends.com/en-us/news/esports/" target="_blank">ESPORTS</a></div>
+                </li>
+
+                <li class="name">
+                    <div class="icon"><i class="fab fa-shopware"></i></div>
+                    <div class="label"><a href="https://merch.riotgames.com/en-us/" target="_blank">SHOP</a></div>
+                </li>
+
+                <li class="name">
+                    <div class="icon"><i class="fas fa-globe-americas"></i></div>
+                    <div class="label"><a href="https://universe.leagueoflegends.com/en_US/">UNIVERSE</a></div>
+                </li>
+
+                <li class="name">
+                    <div class="icon"><i class="fas fa-list"></i></div>
+                    <div class="label">LIST GAME</div>
+                </li>
+
+                <li class="name">
+                    <div class="icon"><i class="fas fa-question-circle"></i></div>
+                    <div class="label"><a href="https://support.riotgames.com/hc/en-us/">SUPPORT</a></div>
+                </li>
+            </ul>
+
+        
+
+        </div>
+
+        <div class="all">
+
+            <ul>
+                <li class="name">
+                    <div class="icon"><i class="fas fa-sign-in-alt"></i></div>
+                    <div class="label"><a href="https://auth.riotgames.com/login#client_id=rso-web-client-prod&login_hint=na&redirect_uri=https%3A%2F%2Flogin.leagueoflegends.com%2Foauth2-callback&response_type=code&scope=openid&state=i2iY5D-RAZm05Fqb4wKSu_xFPZTo9MGWN2XDq5-fmK0&ui_locales=en">SIGN IN</a></div>
+                </li>
+
+                <li><div class="icon"><i class="fas fa-user-plus"></i></div>
+                    <div class="label"><a href="https://signup.na.leagueoflegends.com/en/signup/index#/">SIGN UP</a></div>
+                </li>
+
+                <li>
+                    <div class="icon"><i class="fas fa-tv"></i></div>
+                    <div class="label"><a href="https://na.leagueoflegends.com/en/featured/league-displays">LEAGUE DISPLAY</a></div>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="user">
+        <ul>
+            <li>
+                <i class="fas fa-user" style="height: 30px; width: 30px; padding-right: 5px; color: goldenrod"></i>
+                <p class="userid">RiotUser</p>
+                <i class="fas fa-chevron-circle-down" style="padding-right: 17px"></i>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
