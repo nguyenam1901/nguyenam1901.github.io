@@ -1,6 +1,6 @@
 
 var p = document.querySelector('p');
-var tet = new Date("Jan 25,2021 24:00:00").getTime();
+var tet = new Date("Jan 31,2022 24:00:00").getTime();
        
 var countDown = setInterval(run,1000);
 function run(){
