@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* logo - menu */
+#brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 120px;
+}
+#logo > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+p {
+    font-family: 'Ropa Sans', sans-serif;
+    margin-left: 20px;
+    font-size: 40px;
+    color: white;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+li {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 40px; 
+}
+#hr1 {
+    margin-top: 10px;
+}
+a {text-decoration: none}
+a:active {
+    color: black;
+}
+
+
+/*title*/
+#sport {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#sport > p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: black;
+    margin-left: 10px;
+}
+#sport > #borderline {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 40px;
+    position: relative;
+    margin-left: 5px;
+    width: 650px;
+}
+
+/*hang xe*/
+#hangxe {
+    display: flex;
+    justify-content: center;
+}
+#hangxe > li {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    padding: 8px 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    border-radius: 10px;
+    list-style: none;
+}
+#hangxe > li:hover {
+    background-color: black;
+    color: white;
+}
+
+/*mau xe*/
+/*hang 1*/
+#hang1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#r6 > img {
+    width: 250px;
+    height: 150px;
+    margin-right: 150px;
+    margin-top: 8px;
+}
+#giar6 {
+    list-style: none;
+}
+#giar6 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#giar6 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+#gsx1 > img {
+    width: 290px;
+    height: 160px;
+    margin-left: 50px;
+}
+#giagsx {
+    list-style: none;
+}
+#giagsx > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#giagsx > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+#zx6 > img {
+    width: 255px;
+    height: 150px;
+    margin-left: 190px;
+}
+#giazx6 {
+    list-style: none;
+}
+#giazx6 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+#giazx6 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 225px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+/*hang 2*/
+#hang2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#cbr1 > img {
+    width: 260px;
+    height: 190px;
+    margin-left: 15px;
+    margin-top: -8px;
+}
+#giacbr1 {
+    list-style: none;
+}
+#giacbr1 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -13px;
+    margin-left: 54px;
+}
+#giacbr1 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50 px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#bmws1 > img {
+    width: 255px;
+    height: 150px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+#giabmws1 {
+    list-style: none;
+}
+#giabmws1 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 266px;
+    margin-top: 10px;
+}
+#giabmws1 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 241px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#cbr6 > img {
+    width: 285px;
+    height: 200px;
+    margin-left: 195px;
+    margin-top: -32px;
+}
+#giacbr6 {
+    list-style: none;
+}
+#giacbr6 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 255px;
+    margin-top: 2px;
+}
+#giacbr6 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 245px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+/*hang 3*/
+#hang3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#r1 > img {
+    width: 270px;
+    height: 190px;
+    margin-top: -8px;
+}
+#giar1 {
+    list-style: none;
+}
+#giar1 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -13px;
+    margin-left: 54px;
+}
+#giar1 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50 px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#zx25 > img {
+    width: 285px;
+    height: 155px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+#giazx25 {
+    list-style: none;
+}
+#giazx25 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 235px;
+    margin-top: 10px;
+}
+#giazx25 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 245px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#v4r > img {
+    width: 255px;
+    height: 155px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+#giav4r {
+    list-style: none;
+}
+#giav4r > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 232px;
+    margin-top: 2px;
+}
+#giav4r > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 225px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+/*hang 4*/
+#hang4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#pa899 > img {
+    width: 270px;
+    height: 200px;
+    margin-top: -8px;
+    margin-left: -10px;
+}
+#giapa899 {
+    list-style: none;
+}
+#giapa899 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -13px;
+    margin-left: 30px;
+}
+#giapa899 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 28px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#krt > img {
+    width: 285px;
+    height: 190px;
+    margin-left: 190px;
+    margin-top: 5px;
+}
+#giakrt {
+    list-style: none;
+}
+#giakrt > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 211px;
+    margin-top: -13px;
+}
+#giakrt > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 242px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#cbr25 > img {
+    width: 255px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 4px;
+}
+#giacbr25 {
+    list-style: none;
+}
+#giacbr25 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 250px;
+    margin-top: -2px;
+}
+#giacbr25 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 240px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+/*page*/
+#page {
+    text-align: center;
+    margin-top: 30px;
+}
+#page > a {
+    background: #dbdbdb;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    display: inline-block;
+    min-width: 48px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-right: 2px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+#page > a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*xemthem*/
+#phanloai {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#phanloai > p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: black;
+    margin-left: 10px;
+}
+#phanloai > #borderline {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 40px;
+    position: relative;
+    margin-left: 5px;
+    width: 600px;
+}
+
+#dongxe {
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+}
+#dongxe > li {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    padding: 8px 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    list-style: none;
+}
+#dongxe > li:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+/*san pham them*/
+#sanpham {
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+}
+#sanpham > div {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    width: 690px;
+    height: 250px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    padding: 8px 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+}
+#mt10 {
+    margin-left: 40px;
+    display: flex;
+}
+#mt10 > ul > li{
+    list-style: none;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    margin-top: 7px;
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+#mt10 > ul > #ttkt {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-bottom: 20px;
+}
+#mt10 > #image > img {
+    width: 280px;
+    height: 185px;
+    margin-top: 20px;
+}
+#mt10 > #image > p {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+
+#zh2 {
+    margin-left: 30px;
+}
+#zh2 {
+    margin-left: 40px;
+    display: flex;
+}
+#zh2 > ul > li{
+    list-style: none;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    margin-top: 7px;
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+#zh2 > ul > #ttkt {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-bottom: 20px;
+}
+#zh2 > #image1 > img {
+    width: 300px;
+    height: 205px;
+    margin-top: 15px;
+}
+#zh2 > #image1 > p {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: -5px;
+}
