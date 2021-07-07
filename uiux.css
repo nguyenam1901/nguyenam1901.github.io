@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* logo - menu */
+#brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 120px;
+}
+#logo > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+p {
+    font-family: 'Ropa Sans', sans-serif;
+    margin-left: 20px;
+    font-size: 40px;
+    color: white;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+li {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 40px; 
+}
+#hr1 {
+    margin-top: 10px;
+}
+a {text-decoration: none}
+a:active {
+    color: black;
+}
+
+
+/* banner */
+#banner {
+    margin-top: 10px;
+}
+#banner > img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* xe nổi bật */
+#xenoibat {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+#xenoibat > p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: black;
+    margin-left: 10px;
+}
+#xenoibat > #borderline {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 40px;
+    position: relative;
+    margin-left: 5px;
+    width: 600px;
+}
+
+
+/* r1m zx10r */
+#r1zx10 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#r1m > img {
+    width: 350px;
+    height: 200px;
+    margin-left: 20px;
+}
+#zx10r21 > img {
+    width: 350px;
+    height: 200px;
+    margin-left: 220px;
+}
+#giar1m {
+    list-style: none;
+}
+#giar1m > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+#giar1m > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 95px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+#giazx10 {
+    list-style: none;
+}
+#giazx10 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 265px;
+    margin-top: 10px;
+}
+#giazx10 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 300px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+/* Ưu đãi */
+#uudai {
+    background-color: rgb(240, 240, 240);
+    height: 420px;
+    justify-content: center;
+}
+#km {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#km > p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin-top: 20px;
+    color: black;
+}
+#saleoff {
+    display: flex;
+    justify-content: center;
+}
+#saleoff > img {
+    width: 350px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    -moz-box-shadow: 3px 3px rgb(109, 109, 109);
+    -webkit-box-shadow: 3px 3px rgb(109, 109, 109);
+    box-shadow: 3px 3px rgb(109, 109, 109);
+}
+#more > p {
+    margin-top: 50px;
+    margin-left: 700px;
+    background-color: white;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    padding: 8px 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+}
+#more > p:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* đặc trưng */
+#dactrung {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#dactrung > p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin-top: 20px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 6px;
+}
+#dactrung > #borderline {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 60px;
+    position: relative;
+    margin-left: 5px;
+    width: 495px;
+}
+
+/* hang1 */
+#hang1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#r6 > img {
+    width: 250px;
+    height: 150px;
+    margin-right: 180px;
+}
+#giar6 {
+    list-style: none;
+}
+#giar6 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#giar6 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+#ktm1290 > img {
+    width: 250px;
+    height: 150px;
+}
+#gia1290 {
+    list-style: none;
+}
+#gia1290 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+#gia1290 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 35px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+#zx6 > img {
+    width: 250px;
+    height: 150px;
+    margin-left: 190px;
+}
+#giazx6 {
+    list-style: none;
+}
+#giazx6 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+#giazx6 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 225px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+/* hang2 */
+#hang2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#cbr1 > img {
+    width: 250px;
+    height: 180px;
+    margin-left: 15px;
+}
+#giacbr1 {
+    list-style: none;
+}
+#giacbr1 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -13px;
+    margin-left: 50px;
+}
+#giacbr1 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 45px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#gsx1 > img {
+    width: 280px;
+    height: 160px;
+    margin-left: 167px;
+}
+#giagsx {
+    list-style: none;
+}
+#giagsx > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 215px;
+    margin-top: 10px;
+}
+#giagsx > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 213px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#cbr6 > img {
+    width: 285px;
+    height: 190px;
+    margin-left: 153px;
+    margin-top: -23px;
+}
+#giacbr6 {
+    list-style: none;
+}
+#giacbr6 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+#giacbr6 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 209px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+/* hang3 */
+#hang3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#sv4 > img {
+    width: 250px;
+    height: 155px;
+    margin-left: 15px;
+}
+#giasv4 {
+    list-style: none;
+}
+#giasv4 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+#giasv4 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 43px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#zh2 > img {
+    width: 280px;
+    height: 180px;
+    margin-left: 167px;
+    margin-top: -7px;
+}
+#giagzh2 {
+    list-style: none;
+}
+#giagzh2 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 243px;
+    margin-top: -3px;
+}
+#giagzh2 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 213px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
+
+
+
+#mt7 > img {
+    width: 285px;
+    height: 157px;
+    margin-left: 153px;
+    margin-top: -2px;
+}
+#giamt7 {
+    list-style: none;
+}
+#giamt7 > #li1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 224px;
+    margin-top: 15px;
+}
+#giamt7 > #li2 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 197px;
+    margin-top: 10px;
+    color: rgb(133, 131, 131);
+}
